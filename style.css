@@ -4,3 +4,48 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.make-orange {
+    color: #E55934;
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #F6A23C, #E55934);
+    padding: 1.2em 2.5em;
+    border-radius: 2em;
+    color: #FFF;
+}
+
+/* top-banner styles */
+.top-banner {
+    background: #FFF;
+    height: 100vh;
+    display: flex;
+    padding: 100px 200px;
+}
+
+.banner-info-container {
+    padding: 150px 0;
+}
+
+.banner-heading {
+    color: #595C5F;
+    margin: 0.1em;
+    font-size: 2.8em;
+}
+
+.banner-img-container {
+    text-align: center;
+}
+
+.banner-img-container img {
+    width: 95%;
+}
+
+.banner-para {
+    margin: 2em 0 3em 0;
+    width: 65%;
+    color: grey;
+}
+/* end of top-banner styles */
