@@ -17,10 +17,14 @@ body {
     color: #FFF;
 }
 
+img {
+    width: 100%;
+}
+
 /* top-banner styles */
 .top-banner {
     background: #FFF;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     padding: 100px 200px;
 }
@@ -35,10 +39,6 @@ body {
     font-size: 2.8em;
 }
 
-.banner-img-container {
-    text-align: center;
-}
-
 .banner-img-container img {
     width: 95%;
 }
@@ -49,3 +49,38 @@ body {
     color: grey;
 }
 /* end of top-banner styles */
+
+/* about-me styles */
+.about-me {
+    background-image: url(images/shapes/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.about-img-container {
+    margin: 70px 50px 0 200px;
+}
+
+.about-img-container img {
+    width: 100%;
+}
+
+.about-info-container {
+    margin: 100px 50px 0 100px;
+    padding-left: 80px;
+}
+
+.about-heading {
+    color: #595C5F;
+    font-size: 2em;
+}
+
+.about-para {
+    width: 60%;
+    margin: 2em 0 5em 0;
+    line-height: 1.7em;
+}
+/* end of about-me styles */
