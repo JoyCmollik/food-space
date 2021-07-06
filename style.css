@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+h1 {
+    color: #595C5F;
+    font-size: 2em;
+}
+
 .make-orange {
     color: #E55934;
 }
@@ -73,14 +78,38 @@ img {
     padding-left: 80px;
 }
 
-.about-heading {
-    color: #595C5F;
-    font-size: 2em;
-}
-
 .about-para {
     width: 60%;
     margin: 2em 0 5em 0;
     line-height: 1.7em;
 }
 /* end of about-me styles */
+
+/* recipe section styles */
+.my-recipes {
+    height: 90vh;
+    padding: 50px 200px;
+    text-align: center;
+}
+
+.recipe-info {
+    margin: 0.1em;
+}
+
+.recipe-article-container {
+    padding: 20px 0;
+    display: flex;
+}
+
+.recipe-article {
+    box-shadow: 0 0 19px 1.4px #D4EDE1;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1.4em;
+    text-align: left;
+}
+
+.recipe-article-info {
+    line-height: 1.4em;
+}
+/* end of recipe section styles */
