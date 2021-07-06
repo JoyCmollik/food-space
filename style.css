@@ -20,6 +20,7 @@ h1 {
     padding: 1.2em 2.5em;
     border-radius: 2em;
     color: #FFF;
+    box-shadow: 0 0 19px 0.1px #F6B379;
 }
 
 img {
@@ -108,25 +109,24 @@ img {
 .recipe-article {
     box-shadow: 0 0 19px 1.4px #D4EDE1;
     padding: 1em;
-    border-radius: 1em;
+    border-radius: 1.4em;
     margin: 20px;
     text-align: left;
 }
 
 .recipe-article-info {
-    line-height: 1.4em;
+    line-height: 1.19em;
 }
 /* end of recipe section styles */
 
 /* advertising section styles */
 .advertising {
     height: 40vh;
-    padding: 50px 220px;
+    padding: 20px 220px;
 }
 
 .ad-container {
-    margin-top: 50px;
-    border-radius: 1em;
+    border-radius: 1.4em;
     box-shadow: 0 0 19px 1.4px #D4EDE1;
     padding: 50px 200px;
     display: flex;
@@ -146,6 +146,22 @@ img {
 .ad-item-info {
     font-size: 0.9em;
 }
-
-
 /* end of advertising section styles */
+
+/* footer section styles */
+footer {
+    padding-top: 20px;
+    text-align: center;
+    background: #121212;
+    height: 20vh;
+}
+
+.footer-header {
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.footer-info {
+    color: #fff;
+}
+/* end of footer section styles */
