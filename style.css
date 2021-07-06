@@ -44,6 +44,10 @@ img {
     font-size: 2.8em;
 }
 
+.banner-img-container {
+    text-align: right;
+}
+
 .banner-img-container img {
     width: 95%;
 }
@@ -105,7 +109,7 @@ img {
     box-shadow: 0 0 19px 1.4px #D4EDE1;
     padding: 1em;
     border-radius: 1em;
-    margin: 1.4em;
+    margin: 20px;
     text-align: left;
 }
 
@@ -113,3 +117,35 @@ img {
     line-height: 1.4em;
 }
 /* end of recipe section styles */
+
+/* advertising section styles */
+.advertising {
+    height: 40vh;
+    padding: 50px 220px;
+}
+
+.ad-container {
+    margin-top: 50px;
+    border-radius: 1em;
+    box-shadow: 0 0 19px 1.4px #D4EDE1;
+    padding: 50px 200px;
+    display: flex;
+}
+
+.ad-item {
+    margin: 0 35px;
+}
+
+.ad-item-heading {
+    color: #121212;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.ad-item-info {
+    font-size: 0.9em;
+}
+
+
+/* end of advertising section styles */
