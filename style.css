@@ -30,13 +30,37 @@ img {
 /* top-banner styles */
 .top-banner {
     background: #FFF;
-    height: 75vh;
+    height: 100vh;
+    text-align: center;
+}
+
+.nav-container {
+    margin: 14px 28px 0 28px;
+    border-radius: 1em;
+    padding: 14px;
+    box-shadow: 0 0 19px 1.4px #D4EDE1;
+}
+
+.nav-item {
+    margin: 10px;
+    text-decoration: none;
+    color: #595C5F;
+}
+
+#nav-contact{
+    border:1.4px solid#E55934;
+    padding: 0.4em 1.4em;
+    border-radius: 2em;
+}
+
+.banner-body {
     display: flex;
-    padding: 100px 200px;
+    padding: 40px 200px;
 }
 
 .banner-info-container {
-    padding: 150px 0;
+    text-align: left;
+    padding: 140px 0;
 }
 
 .banner-heading {
@@ -115,7 +139,7 @@ img {
 }
 
 .recipe-article-info {
-    line-height: 1.19em;
+    line-height: 1.7em;
 }
 /* end of recipe section styles */
 
@@ -147,6 +171,63 @@ img {
     font-size: 0.9em;
 }
 /* end of advertising section styles */
+
+/* contact section styles */
+.contact {
+    height: 80vh;
+    text-align: center;
+    padding: 10px 220px;
+}
+
+.contact-container {
+    margin-top: 25px;
+    padding: 40px;
+    display: flex;
+    box-shadow: 0 0 19px 1.4px #D4EDE1;
+    border-radius: 1.4em;
+}
+
+.contact-form-container {
+    background: #E1F5E0;
+    border-radius: 1.4em;
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.contact-input {
+    margin: 10px;
+}
+
+.contact-input input, textarea {
+    width: 100%;
+    border: none;
+    border-image: linear-gradient(to right,#F6A23C, #E55934);
+    border-bottom: 1.9px solid;
+    border-image-slice: 1;
+    margin: 10px;
+    font-size: 1.25em;
+    background: none;
+}
+
+.contact-btn {
+    border: none;
+    text-transform: uppercase;
+    margin: 0 110px;
+}
+
+.contact-info-container {
+    text-align: left;
+    margin: auto;
+}
+
+.contact-info-list li{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 1.25em;
+    color: gray;
+}
+
+/* end of contact section styles */
 
 /* footer section styles */
 footer {
